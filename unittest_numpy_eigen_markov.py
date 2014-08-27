@@ -173,7 +173,7 @@ if __name__ == '__main__':
 
     if args.N <= 5:
         print 'P =\n', P, '\n'
-    print 'v (converted to numpy.float) =\n', v, '\n'
+    print 'v =\n', v, '\n'
     print 'TOL =', TOL, '\n'
 
     suite = unittest.TestLoader().loadTestsFromTestCase(TestComputeStationary)
